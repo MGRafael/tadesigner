@@ -4,52 +4,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     
-    <div class="slidershow middle1">
-        <p>CAPAS LISAS</p>
-        <div class="slides">
-            <input type="radio" name="r" id="r1" checked>
-            <input type="radio" name="r" id="r2">
-            <input type="radio" name="r" id="r3">
-            <input type="radio" name="r" id="r4">
-            <input type="radio" name="r" id="r5">
-            <input type="radio" name="r" id="r6">
-            
-            <div class="slide s1">
-                <img src="img/lisa01.jpg">
-            </div>            
-            <div class="slide">
-                <img src="img/lisa02.jpg">
-            </div>            
-            <div class="slide">
-                <img src="img/lisa03.jpg">
-            </div>            
-            <div class="slide">
-                <img src="img/lisa04.jpg">
-            </div>            
-            <div class="slide">
-                <img src="img/lisa05.jpg">
-            </div>            
-            <div class="slide">
-                <img src="img/lisa06.jpg">
-            </div>
-        </div>
+    <div class="carousel">
         
-        <div class="navigation">
-            <label for="r1" class="bar"></label>
-            <label for="r2" class="bar"></label>
-            <label for="r3" class="bar"></label>
-            <label for="r4" class="bar"></label>
-            <label for="r5" class="bar"></label>
-            <label for="r6" class="bar"></label>
+        <div class="carousel-item">
+            <img src="img/lisa.jpeg"> <!-- lisa -->
+        </div>
+        <div class="carousel-item">
+            <img src="img/coringa.jpeg"> <!-- coringa -->
+        </div>
+        <div class="carousel-item">
+            <img src="img/caveira.jpeg"> <!-- caveira -->
+        </div>
+        <div class="carousel-item">
+            <img src="img/folhagem.jpeg"> <!-- folhagem -->
+        </div>
+        <div class="carousel-item">
+            <img src="img/verao.jpeg"> <!-- verão -->
         </div>
         
     </div>
     
-    <script src=""></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $('.carousel').carousel();
+        });
+    </script>
 </body>
 </html>
