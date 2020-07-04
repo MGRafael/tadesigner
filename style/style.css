@@ -1,27 +1,107 @@
+@font-face {
+    src: url("../fonts/ARLRDBD.ttf");
+    font-family: "ARLRDBD";
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #000000;
 }
 
-body {
-    display: flex;
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+hr {
+    width: 250px;
+}
+
+header {
+    font-family: "ARLRDBD";
+    font-size: 12px;
+    text-align: center;
+}
+.logo { /* costumisação da div onde o logo se encontra*/
+    margin: 0;
+    padding: 0;
+	width: 100%;
+    height: 90px;
+    display: grid;
     justify-content: center;
-    align-items: center;
-    background: #ffffff;
+    align-content: center;
+    background-color: #ffffff;
+}
+.logo svg {
+    height: 90px;
+}
+.nav-bar {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+	width: 100%;
+    height: 70px;
+    background-color: #ffffff  ;
 }
 
+.abs-pos {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.fix-pos {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#swip { /*primeira section - swip*/
+	display: grid;
+}
+.titulo {
+    padding: 0 100px;
+}
+.legenda {
+    padding: 10px 0;
+    display: grid;
+    justify-content: center;
+    color: #999999;
+}
+.hr {
+    display: grid;
+    justify-content: center;
+}
+
+main {
+    font-family: "ARLRDBD";
+    font-size: 12px;
+}
+main section  {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+main section:nth-child(odd) {
+    height: auto;
+    background-color: #ffffff;
+}
+main section:nth-child(even) {
+    height: auto;
+    background-color: #ffffff;
+}
+
+/*catalogo coleções whip*/
 .carousel {
 	position: relative;
-    height: 500px;
-    perspective: 1000px;
+    height: 290px;
+    perspective: 5000px;
 }
-
 .carousel .carousel-item {
-    width: 230px;
-    
+    width: 250px;
 }
-
 .carousel .carousel-item img {
     max-width: 250px;
 }
