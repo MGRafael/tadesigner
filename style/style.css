@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 hr {
-    width: 250px;
+    width: 245px;
 }
 
 header {
@@ -61,14 +61,18 @@ header {
 #swip { /*primeira section - swip*/
 	display: grid;
 }
-.titulo {
+.titulo1 {
     padding: 30px 70px;
-    font-size: ;
+}
+.titulo2 {
+    padding: 30px 70px;
+    font-size: 11px;;
 }
 .legenda {
     padding: 10px 0;
     display: grid;
     justify-content: center;
+    font-size: 11.5px;
     color: #999999;
 }
 .hr {
