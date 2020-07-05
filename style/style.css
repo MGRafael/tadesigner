@@ -62,7 +62,7 @@ header {
 	display: grid;
 }
 .titulo1 {
-    padding: 30px 70px;
+    padding: 30px 70px 0;
 }
 .titulo2 {
     padding: 30px 70px;
@@ -105,11 +105,11 @@ main section:nth-child(even) {
 /*catalogo coleções whip tamanho*/
 .carousel {
 	position: relative;
-    height: 290px; /*tamanho do quadro da imagem*/
-    perspective: 900px; /* tamanho da imagem*/
+    height: 220px; /*tamanho do quadro da imagem*/
+    perspective: 500px; /* tamanho da imagem*/
 }
 .carousel .carousel-item {
-    width: 250px;
+    width: 200px;
 }
 .carousel .carousel-item img {
     max-width: 250px;
