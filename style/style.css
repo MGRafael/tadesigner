@@ -105,12 +105,12 @@ main section:nth-child(even) {
 /*catalogo coleções whip tamanho*/
 .carousel {
 	position: relative;
-    height: 220px; /*tamanho do quadro da imagem*/
-    perspective: 500px; /* tamanho da imagem*/
+    height: 230px; /*tamanho do quadro da imagem*/
+    perspective: 900px; /* tamanho das imagens anteriores e posteriores*/
 }
 .carousel .carousel-item {
-    width: 200px;
+    width: 220px;
 }
 .carousel .carousel-item img {
-    max-width: 250px;
+    max-width: 220px;
 }
