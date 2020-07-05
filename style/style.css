@@ -145,11 +145,11 @@ main section:nth-child(even) {
 .carousel {
 	position: relative;
     height: 230px; /*tamanho do quadro da imagem*/
-    perspective: 900px; /* tamanho das imagens anteriores e posteriores*/
+    perspective: 2000px; /* tamanho das imagens anteriores e posteriores*/
 }
 .carousel .carousel-item {
-    width: 200px;
+    width: 260px;
 }
 .carousel .carousel-item img {
-    max-width: 220px;
+    max-width: 200px;
 }
