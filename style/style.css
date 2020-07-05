@@ -38,6 +38,7 @@ header {
     justify-content: center;
     align-content: center;
     background-color: #ffffff;
+    border: 0;
 }
 .logo svg {
     width: 90px;
