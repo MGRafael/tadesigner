@@ -98,7 +98,8 @@ header {
 	display: grid;
 }
 .titulo {
-    padding: 15px 150px;
+    padding: 15px;
+    width: 300px;
     display: grid;
     justify-content: center;
 }
