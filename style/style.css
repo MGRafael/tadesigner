@@ -23,6 +23,7 @@ a {
 }
 hr {
     width: 245px;
+    
 }
 
 header {
@@ -129,6 +130,7 @@ header {
 .hr {
     display: grid;
     justify-content: center;
+    color: #bebebe;
 }
 
 #idigital {
