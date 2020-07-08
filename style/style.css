@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #000000;
-    font-family: "font", arial;
+    font-family: "font";
 }
 
 ul {
@@ -22,7 +22,7 @@ a {
     text-decoration: none;
 }
 hr {
-    width: 245px;
+    width: 220px;
     
 }
 
@@ -106,6 +106,7 @@ header {
 
 #swip { /*primeira section - swip*/
 	display: grid;
+    
 }
 .titulo {
     padding-top: 15px;
@@ -124,7 +125,7 @@ header {
     padding: 10px 0;
     display: grid;
     justify-content: center;
-    font-size: 11.5px;
+    font-size: 10px;
     color: #bebebe;
 }
 .hr {
@@ -132,8 +133,15 @@ header {
     justify-content: center;
     color: #bebebe;
 }
+.conteudo {
+    display: grid;
+    justify-content: center;
+    padding: 25px;
+    color: #00ACFF;
+    text-align: center;
+}
 
-#idigital {
+#q-idigital {
     display: grid;
 }
 
