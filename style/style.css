@@ -1,6 +1,6 @@
 @font-face {
-    src: url("../fonts/ARLRDBD.ttf");
-    font-family: 'ARLRDBD';
+    src: url("../fonts/ARLRDBD.TTF");
+    font-family: "font";
 }
 
 * {
@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #000000;
-    font-family: 'ARLRDBD', arial;
+    font-family: "font", arial;
 }
 
 ul {
