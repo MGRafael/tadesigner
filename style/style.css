@@ -105,15 +105,18 @@ header {
     justify-content: center;
 }
 .titulo2 {
-    padding: 30px 70px;
-    font-size: 11px;;
+    padding: 30px 0;
+    width: 320px;
+    display: grid;
+    justify-content: center;
+    font-size: 11px;
 }
 .legenda {
     padding: 10px 0;
     display: grid;
     justify-content: center;
     font-size: 11.5px;
-    color: #999999;
+    color: #bebebe;
 }
 .hr {
     display: grid;
