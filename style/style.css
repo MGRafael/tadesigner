@@ -44,6 +44,7 @@ header {
     width: 90px;
     height: 90px;
 }
+
 .menu {
 	margin: 0;
     padding: 0;
@@ -54,9 +55,16 @@ header {
     align-content: center;
     background-color: #ffffff;
 }
-.menu svg {
+.zap svg {
+    height: 16px;
+}
+.face svg {
+    height: 17px;
+}
+.insta svg {
     height: 15px;
 }
+
 .nav-bar {
     margin: 0;
     padding: 0;
