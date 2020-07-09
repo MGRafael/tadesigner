@@ -9,15 +9,9 @@
     box-sizing: border-box;
     color: #000000;
     font-family: "font";
+    font-size: 12px;
 }
 
-ul {
-    width: 100%;
-    height: 25px;
-}
-li {
-    list-style: none;
-}
 a {
     text-decoration: none;
 }
@@ -27,35 +21,23 @@ hr {
 }
 
 header {
-    margin: 0;
-    font-size: 12px;
+    position: relative;
 }
+
 .logo { /* customização da div onde o logo se encontra*/
     margin: 0;
     padding: 0;
 	width: 100%;
-    height: 90px;
+    height: auto;
     display: grid;
     justify-content: center;
-    align-content: center;
     background-color: #ffffff;
-    border: 0;
 }
 .logo svg {
     width: 90px;
     height: 90px;
 }
 
-.menu {
-	margin: 0;
-    padding: 0;
-	width: 100%;
-    height: 900px;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    background-color: #ffffff;
-}
 .zap svg {
     height: 16px;
 }
@@ -67,23 +49,17 @@ header {
 }
 
 .nav-bar {
-    margin: 0;
-    padding: 0;
-	width: 100%;
-    height: 25px;
     display: grid;
-    background-color: #ffffff;
-}
-.nav-bar a {
-    margin: 0;
-    padding: 0;
-    display: grid;
-}
-.nav-bar ul {
-    display: grid;
-    grid-auto-flow: column;
     justify-content: center;
     align-content: center;
+	width: 100%;
+    height: 25px;
+    background-color: #ffffff;
+    box-shadow: none;
+}
+.nav-bar ul {
+	display: grid;
+    grid-auto-flow: column;
 }
 .nav-bar li {
     width: 25px;
@@ -92,30 +68,20 @@ header {
     justify-content: center;
     align-content: center;
 }
-
-.abs-pos {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-.fix-pos {
-    position: fixed;
-    top: 0;
-    right: 0;
+.nav-bar a {
+    margin: 0;
+    padding: 0;
+    display: grid;
 }
 
-#swip { /*primeira section - swip*/
-	display: grid;
-    
-}
 .titulo {
-    padding-top: 15px;
+    padding-top: 30px;
     width: 320px;
     display: grid;
     justify-content: center;
 }
 .titulo2 {
-    padding: 30px 0;
+    padding-top: 15px;
     width: 320px;
     display: grid;
     justify-content: center;
@@ -129,13 +95,10 @@ header {
     color: #bebebe;
 }
 .hr {
+    padding-bottom: 15px;
     display: grid;
     justify-content: center;
     color: #bebebe;
-}
-
-#q-idigital {
-    display: grid;
 }
 
 main {
@@ -158,6 +121,7 @@ main section:nth-child(even) {
 /*catalogo coleções whip tamanho*/
 .carousel {
 	position: relative;
+    width: 100%;
     height: 230px; /*tamanho do quadro da imagem*/
     perspective: 900px; /* tamanho das imagens anteriores e posteriores*/
 }
